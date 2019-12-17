@@ -15,7 +15,11 @@
     "object-literal-sort-keys": false,
     "no-empty-interface": false,
     "semicolon": false,
-    "eofline": false
+    "eofline": false,
+    "no-console": false,
+    "no-trailing-whitespace": false,
+    "no-empty": false,
+    "no-consecutive-blank-lines": false
   },
   "rulesDirectory": []
 }
