@@ -19,7 +19,9 @@
     "no-console": false,
     "no-trailing-whitespace": false,
     "no-empty": false,
-    "no-consecutive-blank-lines": false
+    "no-consecutive-blank-lines": false,
+    "ban-types": false,
+    "trailing-comma": false
   },
   "rulesDirectory": []
 }
