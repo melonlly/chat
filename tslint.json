@@ -21,7 +21,8 @@
     "no-empty": false,
     "no-consecutive-blank-lines": false,
     "ban-types": false,
-    "trailing-comma": false
+    "trailing-comma": false,
+    "quotemark": false
   },
   "rulesDirectory": []
 }

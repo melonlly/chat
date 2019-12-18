@@ -1,4 +1,4 @@
-import { Controller, Get, Req, Redirect, Query, Param, Post, Body, Delete } from '@nestjs/common';
+import { Controller, Get, Query, Param, Post, Body, Delete } from '@nestjs/common';
 import { CatService } from '../services/CatService';
 import { Cat } from 'src/dtos/Cat';
 
@@ -11,7 +11,7 @@ export class CatController {
         return this.catService.addCat(cat)
     }
 
-    @Delete('/delete')
+    @Delete('/delete/:name')
     deleteCat(@Param('name') name: string): string {
         return this.catService.deleteCat(name)
     }
